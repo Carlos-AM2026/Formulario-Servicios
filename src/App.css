@@ -1,0 +1,323 @@
+/*Importaciones*/
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+/*Globales*/
+html{
+  margin: 2px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+
+a{
+  text-decoration: none;
+  color: #0A0A0A;
+}
+
+/*Contenedores*/
+.contenedor-principal{
+  padding: 10px;
+}
+
+.contenedor-cabecera{
+  background-image: url(../images/img--lamborghini.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(15, 15, 15);
+  background-blend-mode: soft-light;
+  height: 630px;
+  width: 100%;
+}
+
+.contenedor-formulario{
+  height: 100%;
+  width: 80%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 34%;
+  left: 74%;
+}
+
+.contenedor-menu{
+  position: absolute;
+  top: 70%;
+  left: 21%;
+}
+
+.contenedor-menu button:hover{
+  -webkit-animation: ani .7s steps(22) forwards;
+  animation: ani .7s steps(22) forwards;
+}
+
+.contenedor-texto-uno{
+  height: 20%;
+  width: 70%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 80%;
+  left: 57%;
+}
+
+/*Contenidos*/
+.contenido-menu{
+  border-radius: 15%;
+  position: relative;
+  height: auto;
+  width: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6vh;
+  overflow: hidden;
+  border: 1px solid;
+  font-family: Lato,sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  transition: .5s;
+  letter-spacing: 1px;
+  display: inline-block;
+}
+
+.contenido-menu button{
+  width: 101%;
+  height: 100%;
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 1px;
+  background: #dedee7;
+  -webkit-mask: url(https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/nature-sprite.png);
+  mask:url(https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/nature-sprite.png);
+  -webkit-mask-size: 2300% 100%;
+  mask-size: 2300% 100%;
+  border: none;
+  color: #F4F4F4;
+  cursor: pointer;
+  -webkit-animation: ani2 .7s steps(22) forwards;
+  animation: ani2 .7s steps(22) forwards;
+}
+
+.contenido-menu:hover{
+  background-color: #0A0A0A;
+}
+
+/*Titulos*/
+.titulo-principal{
+  font-family: 'Russo One', sans-serif;
+  font-size: 50px;
+  -webkit-text-stroke: 2px #ffffff;
+  color: #0000FF;
+  text-align: center;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 4%;
+  left: 50%;
+}
+
+.titulo-dos{
+  font-family: 'Russo One', sans-serif;
+  font-size: 27px;
+  -webkit-text-stroke: 2px #ffffff;
+  color: #0000FF;
+  text-align: center;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 15%;
+  left: 50%;
+}
+
+/*Textos*/
+.texto-uno{
+  font-family: 'Noto Serif', serif;
+  color: #f8f8ff;
+  text-align: center;
+  position: absolute;
+  bottom: 15%;
+  right: 19%;
+}
+
+.texto-menu{
+  color: #f8f8ff;
+  text-align: center;
+  width: 101%;
+  font-family: 'Balthazar', serif;
+  font-weight: 300;
+  position:absolute;
+  bottom: -60%;
+  font-size: 20px;
+  margin: 15px auto;
+  overflow: hidden
+}
+
+/*Labels*/
+.label-uno{
+  font-family: 'Noto Serif', serif;
+  color: #f8f8ff;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 48%;
+  left: 10%;
+}
+
+.label-dos{
+  font-family: 'Noto Serif', serif;
+  color: #f8f8ff;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 52%;
+  left: 10%;
+}
+
+.label-tres{
+  font-family: 'Noto Serif', serif;
+  color: #f8f8ff;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 56%;
+  left: 10%;
+}
+
+.label-cuatro{
+  font-family: 'Noto Serif', serif;
+  color: #f8f8ff;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 60%;
+  left: 10%;
+}
+
+.label-cinco{
+  font-family: 'Noto Serif', serif;
+  color: #f8f8ff;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 64%;
+  left: 10%;
+}
+
+.label-seis{
+  font-family: 'Noto Serif', serif;
+  color: #f8f8ff;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 68%;
+  left: 10%;
+}
+
+.label-siete{
+  font-family: 'Noto Serif', serif;
+  color: #f8f8ff;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 72%;
+  left: 10%;
+}
+
+/*Inputs*/
+.input-uno{
+  font-family: 'Noto Serif', serif;
+  color: #0A0A0A;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 48%;
+  left: 25%;
+}
+
+.input-dos{
+  font-family: 'Noto Serif', serif;
+  color: #0A0A0A;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 52%;
+  left: 25%;
+}
+
+.input-tres{
+  font-family: 'Noto Serif', serif;
+  color: #0A0A0A;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 56%;
+  left: 25%;
+}
+
+.input-cuatro{
+  font-family: 'Noto Serif', serif;
+  color: #0A0A0A;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 60%;
+  left: 25%;
+}
+
+.input-cinco{
+  font-family: 'Noto Serif', serif;
+  color: #0A0A0A;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 64%;
+  left: 25%;
+}
+
+.input-seis{
+  font-family: 'Noto Serif', serif;
+  color: #0A0A0A;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 68%;
+  left: 25%;
+}
+
+.input-siete{
+  font-family: 'Noto Serif', serif;
+  color: #0A0A0A;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 72%;
+  left: 25%;
+}
+
+/*Iconos*/
+.icono-enviar{
+  text-align: center;
+  position: relative;
+  left: 3%;
+}
+
+/*Keys del boton*/
+@-webkit-keyframes ani{
+  from{
+    -webkit-mask-position:0 0;
+    mask-position:0 0
+  }
+to{
+  -webkit-mask-position:100% 0;
+  mask-position:100% 0
+}}
+@keyframes ani{
+  from{
+    -webkit-mask-position:0 0;
+    mask-position:0 0
+  }
+to{
+  -webkit-mask-position:100% 0;
+  mask-position:100% 0}
+}
+@-webkit-keyframes ani2{
+  from
+  {
+    -webkit-mask-position:100% 0;
+    mask-position:100% 0
+  }
+to{
+  -webkit-mask-position:0 0;
+  mask-position:0 0
+}}
+
+@keyframes ani2{
+  from{
+    -webkit-mask-position:100% 0;
+    mask-position:100% 0
+  }
+to{
+  -webkit-mask-position:0 0;
+  mask-position:0 0
+}}
